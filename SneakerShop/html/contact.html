@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
+  <title>Контакты</title>
+</head>
+<body>
+  <section class="header_about">
+    <header class="header">
+      <a href="../index.html" class="header__logo"></a>
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__item"><a class="header__link" href="../../Korzina/basket.html">Каталог</a></li>
+          <li class="header__item"><a class="header__link" href="./about.html">Біз жайлы</a></li>
+          <li class="header__item"><a class="header__link" href="./delivery.html">Жеткізу және төлем</a></li>
+          <li class="header__item"><a class="header__link" href="./contact.html">Байланыс</a></li>
+        </ul>
+      </nav>
+    </header>
+  </section>
+  <section class="contacts">
+    <div class="contacts__container">
+      <h1 class="contacts__title">Байланыс</h1>
+
+      <div class="contacts__btn">
+        <button onclick="toggleBlocks('contacts__banner__astana', 'contacts__banner__almaty')" class="contacts__btn__first_btn">Астанадағы байланыс қызметтері</button>
+        <button onclick="toggleBlocks('contacts__banner__almaty', 'contacts__banner__astana')" class="contacts__btn__second_btn">Алматыдағы байланыс қызметтері</button>
+      </div>
+
+      <div class="contacts__banner contacts__banner__astana ">
+        <div class="contacts__banner__text">
+          <h2 class="contacts__banner__text__title">SneakMax дүкені</h2>
+          <div class="contacts__banner__text__loc">
+            <p class="contacts__banner__text__loc__subtitle">Астана,ТРЦ MEGA Silk Way, проспект Кабанбай батыр, 62 </p>
+            <p class="contacts__banner__text__loc__subtitle">Жұмыс жасау уақыты 10:00-21:00</p>
+          </div>
+          <p class="contacts__banner__text__number">+7(777)777-77-77</p>
+          <p class="contacts__banner__text__email">info@sneakmax</p>
+          <div class="contacts__banner__text__container">
+            <a href="https://go.2gis.com/dt02a" class="contacts__banner__text__navigation">Қалай жетуге болады</a>
+            <br>
+            <a href="https://web.telegram.org/a/#1166721425" class="contacts__banner__text__btn">Бізге жазу</a>
+            
+          </div>
+        </div>
+        <div class="contacts__banner__img">
+          <img src="../img/MegaSilkway.jpg" alt="" class="contacts__banner__img__photo">
+        </div>
+      </div>
+
+      <div class="contacts__banner contacts__banner__almaty ">
+        <div class="contacts__banner__text">
+          <h2 class="contacts__banner__text__title">SneakMax дүкені</h2>
+          <div class="contacts__banner__text__loc">
+            <p class="contacts__banner__text__loc__subtitle">Алматы,Esentai Mall, проспект Аль Фараби, 77/8 </p>
+            <p class="contacts__banner__text__loc__subtitle">Жұмыс жасау уақыты 10:00-21:00</p>
+          </div>
+          <p class="contacts__banner__text__number">+7(777)777-77-77</p>
+          <p class="contacts__banner__text__email">info@sneakmax</p>
+          <div class="">
+            <a href="https://go.2gis.com/dr2ms" class="contacts__banner__text__navigation">Қалай жетуге болады</a>
+            <br>
+            <a href="https://web.telegram.org/a/#1166721425" class="contacts__banner__text__btn">Бізге жазу</a>
+          </div>
+        </div>
+        <div class="contacts__banner__img">
+          <img src="../img/EsentaiMall.jpg" alt="" class="contacts__banner__img__photo">
+        </div>
+      </div>
+
+      <div class="contacts__office">
+        <div class="contacts__office__first__block">
+          <h3 class="contacts__office__first__block__title">Офис</h3>
+          
+          <div class="contacts__office__first__block__text-container">
+            <p class="contacts__office__first__block__info">улица Сыганак,60/5, Abu Dhabi Plaza</p>
+            <p class="contacts__office__first__block__info__subtitle">Режим работы 10:00 – 21:00</p>
+            <a href="https://go.2gis.com/xqlbpe" class="contacts__office__first__block__info__link">Қалай жетуге болады</a>
+          </div>
+          <img src="../img/map.png" alt="" class="contacts__office__first__block__info__map">
+        </div>
+        <div class="contacts__office__second__block">
+          <p class="contacts__office__second__block__title">Отдел продаж</p>
+          <p class="contacts__office__second__block__number">+7(777)777-77-77</p>
+          <div class="contacts__office__second__block__email-container">
+            <p class="contacts__office__second__block__email">info@sneakmax.kz</p>
+            <p class="contacts__office__second__block__email-text">ынтымақтастық мәселелеріне, шағымдар мен ұсыныстарға қатысты жалпы мәселелер бойынша.</p>
+            <p class="contacts__office__second__block__email">zakaz@sneakmax.kz</p>
+            <p class="contacts__office__second__block__email-text">кроссовкиге дилерлік тапсырыстарды қабылдау үшін.</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__container">
+      <a href="./index.html" class="footer__logo"></a>
+    <div class="footer__icon">
+      <a href="" class="icon"><img src="../img/yt.svg" alt="" class="footer__icon__img"></a>
+      <a href="" class="icon"><img src="../img/facebook.svg" alt="" class="footer__icon__img"></a>
+      <a href="" class="icon"><img src="../img/instagramm.svg" alt="" class="footer__icon__img"></a>
+    </div>
+    <div class="footer__icon">
+      <a href="" class="icon"><img src="../img/mastercard 1.svg" alt=""></a>
+      <a href="" class="icon"><img src="../img/paypal-logo 1.svg" alt=""></a>
+      <a href="" class="icon"><img src="../img/symbols (1) 1.svg" alt=""></a>
+      <a href="" class="icon"><img src="../img/symbols 1.svg" alt=""></a>
+    </div>
+    </div>
+    
+    
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
